@@ -4,4 +4,4 @@ phrase = "Hello world"  # Variables aren't declared in Python. It is a dynamical
 
 print(phrase)  # Prints variable 'phrase'.
 
-print()
+print(phrase + "!")  # Concatenation! Combining two strings.
