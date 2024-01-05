@@ -20,7 +20,6 @@ I'll add notes here as I feel is needed.
  - `git branch -d <branch-name>` Delete local branch.
  - `git push -u origin <branch-name>` Push local branch to remote repository. ("Creates" remote branch.)
  - `git push origin --delete <branch-name>` Delete remote branch.
- - 
 
 ## Starting the day through Git:
 
