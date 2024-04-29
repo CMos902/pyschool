@@ -50,3 +50,5 @@ numbers.sort()  # Sorts the list in numerical/alphabetical order.
 numbers.reverse()  # Reverses a lists current order.
 
 numbers2 = numbers.copy()  # Copies the contents of numbers to numbers2.
+
+print(len(numbers))  # Prints the number of elements in an array. |numbers| = 5

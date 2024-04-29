@@ -8,6 +8,25 @@ print(3 - 4.13)  # Basic addition(+), subtraction(-), multiplication(*), and div
 print(3 * (5 - 3))  # Python follows standard order of operations (PEMDAS).
 print(10 % 3)  # '%' is the modulus operator. The modulus divides the equation, and outputs the remainder.
 
+# Arithmatic operators.
+
+# + (addition)  1 + 1 = 2
+# - (subtraction) 1 - 1 = 0
+# * (multiplication) 2 * 2 = 4
+# / (division) - Performs floating-point division by default. Use // for floor division. 10 / 3 = 3.33333; 10 // 3 = 3
+# % (modulo) - Returns the remainder after division. 10 % 3 = 1
+# ** (exponentiation) - Raises the left operand to the power of the right operand. 2**3 == 2^3 = 8
+
+# Comparison Operator
+
+# == (equal to)
+# != (not equal to)
+# > (greater than)
+# < (less than)
+# >= (greater than or equal to)
+# <= (less than or equal to)
+# is (checks object identity) - Use with caution, preference is for == for value
+
 # Numbers can be stored to variables just like strings.
 
 whole_number = 4  # Declared as an integer.
