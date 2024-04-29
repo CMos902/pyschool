@@ -1,3 +1,6 @@
+
+import 17
+
 print(2)  # Print an integer.
 print(2.22)  # Print a float. By default, Python declares decimals as floats.
 print(-2)  # Print a negative number
@@ -53,3 +56,4 @@ from math import *
 print(floor(3.7))  # Prints the lowest number. Similar to rounding down.
 print(ceil(3.7))  # Prints the highest number. Similar to rounding up.
 print(sqrt(49))  # Prints the square root of a number.
+print(5**1234)
