@@ -10,4 +10,4 @@ class Student:
         self.major = major
         self.gpa = gpa
         self.is_on_probation = is_on_probation
-# From here, check out the module student.py
+# From here, check out the module Student.py

@@ -1,4 +1,4 @@
-from prompts import Prompts
+from Prompts import Prompts
 
 # This is a simple multiple choice quiz that will most of the things learned in previous chapters.
 
@@ -33,5 +33,5 @@ def run_test(questions):
     print("Your scored " + str(score) + " out of " + str(len(questions)) + ".")
 
 
-# Finally, call the run_test function to take the test. 
+# Finally, call the run_test function to take the test.
 run_test(questions_and_answers)
