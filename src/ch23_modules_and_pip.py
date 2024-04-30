@@ -16,6 +16,4 @@ print(useful_tools.roll_dice(20))
 # To check if pip is installed run the command:
 # pip --version
 
-
-
-C:\Users\cylem\IdeaProjects\pyschool
+# C:\Users\cylem\IdeaProjects\pyschool
