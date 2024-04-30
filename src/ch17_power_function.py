@@ -15,15 +15,4 @@ def raise_power(base_num: int, exponent: int):
         if exponent % 2 != 0:
             result *= base_num
     return result
-    pass
 
-
-while True:
-    try:
-        base = int(input("Enter the base integer: "))
-        expo = int(input("Enter the exponent integer: "))
-        break
-    except ValueError:
-        print("Please enter only whole number\n")
-
-print(raise_power(base, expo))

@@ -1,6 +1,4 @@
 
-import 17
-
 print(2)  # Print an integer.
 print(2.22)  # Print a float. By default, Python declares decimals as floats.
 print(-2)  # Print a negative number
@@ -51,9 +49,13 @@ print(round(decimal_number))  # Rounds a decimal, to the nearest whole number.
 # Importing.
 # Following PEP 8 style guide, imports should be at the top of a file.
 from math import *
-# This allows us to access even more math functions. Also known as a module.
+# This allows us to access even more math functions. `math` is the module the functions are being imported from.
 
 print(floor(3.7))  # Prints the lowest number. Similar to rounding down.
 print(ceil(3.7))  # Prints the highest number. Similar to rounding up.
 print(sqrt(49))  # Prints the square root of a number.
-print(5**1234)
+print(5 ** 2)  # 5 ^ 2
+print()
+
+from ch17_power_function import raise_power
+print(raise_power(5, 2))
