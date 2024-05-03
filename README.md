@@ -1,25 +1,20 @@
 # Pyschool
 
-This project is my notes from learning Python and Git.  
-My intent is to use it as a reference when working on other Python projects.
-
-This project will use Python specific syntax and PEP8 style guide.  
-It will also have some reminders of good coding/version control practices.
-
-I'll add notes here as I feel is needed.
+This is me learning some Python syntax and PEP8 style guide.
 
 ### Git Commands Index
- - `git fetch origin` Retrieve changes from remote repository without merging to local.
- - `git pull origin main` Merges remote `main` branch with your current branch.
- - `git status` See Git info such as your current branch, and files that have been changed/need commits.
- - `git checkout <branch-name>` Change your current branch.
- - `git add <file_name>` Stage file for commit. 
- - `git commit -m "concise message"` Commit project changes that will be pushed.
- - `git push <branch-name>` Push changes from current branch to `<branch-name>`.
- - `git checkout -b <branch-name>` Create new local branch.
- - `git branch -d <branch-name>` Delete local branch.
- - `git push -u origin <branch-name>` Push local branch to remote repository. ("Creates" remote branch.)
- - `git push origin --delete <branch-name>` Delete remote branch.
+
+- `git fetch origin` Retrieve changes from remote repository without merging to local.
+- `git pull origin main` Merges remote `main` branch with your current branch.
+- `git status` See Git info such as your current branch, and files that have been changed/need commits.
+- `git checkout <branch-name>` Change your current branch.
+- `git add <file_name>` Stage file for commit.
+- `git commit -m "concise message"` Commit project changes that will be pushed.
+- `git push <branch-name>` Push changes from current branch to `<branch-name>`.
+- `git checkout -b <branch-name>` Create new local branch.
+- `git branch -d <branch-name>` Delete local branch.
+- `git push -u origin <branch-name>` Push local branch to remote repository. ("Creates" remote branch.)
+- `git push origin --delete <branch-name>` Delete remote branch.
 
 ## Starting the day through Git:
 
@@ -64,15 +59,17 @@ I'll add notes here as I feel is needed.
       splitting them into separate commits with focused messages. This allows for finer-grained rollback if needed.
 
 2.**Organizing Branches**
-   - Push your work to remote: After committing, push your local changes to the remote repository 
-     (e.g., GitHub) using `git push <branch-name>`. This ensures your work is backed up and accessible to others.
-   - Switch to `main` branch: If you were working on a feature branch, switch back to the main branch using 
-     `git checkout main`. This ensures you're working on the current codebase when starting your next session.
-   - Clean up local branches (optional): If you have completed feature branches and pushed them to remote, consider 
-     deleting them locally using `git branch -d <branch-name>`. This keeps your local environment tidy.
+
+- Push your work to remote: After committing, push your local changes to the remote repository
+  (e.g., GitHub) using `git push <branch-name>`. This ensures your work is backed up and accessible to others.
+- Switch to `main` branch: If you were working on a feature branch, switch back to the main branch using
+  `git checkout main`. This ensures you're working on the current codebase when starting your next session.
+- Clean up local branches (optional): If you have completed feature branches and pushed them to remote, consider
+  deleting them locally using `git branch -d <branch-name>`. This keeps your local environment tidy.
 
 ## Key Points:
-- Review your changes: Before committing, take a moment to review your code and messages to ensure everything is 
+
+- Review your changes: Before committing, take a moment to review your code and messages to ensure everything is
   correct and well-documented.
 - Commit Frequently: Make small, focused commits with clear messages to track progress and facilitate collaboration.
 - Pull Often: Pull changes from the remote repository regularly to stay up-to-date and avoid merge conflicts.
