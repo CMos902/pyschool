@@ -1,6 +1,6 @@
 # Pyschool
 
-This is me learning some Python syntax and PEP8 style guide.
+This is me learning some git, Python syntax, and PEP8 style guide.
 
 ### Git Commands Index
 
@@ -8,9 +8,9 @@ This is me learning some Python syntax and PEP8 style guide.
 - `git pull origin main` Merges remote `main` branch with your current branch.
 - `git status` See Git info such as your current branch, and files that have been changed/need commits.
 - `git checkout <branch-name>` Change your current branch.
-- `git add <file_name>` Stage file for commit.
+- `git add <file_name>` or `git add .` Stage file for commit or stage all files for commit.
 - `git commit -m "concise message"` Commit project changes that will be pushed.
-- `git push <branch-name>` Push changes from current branch to `<branch-name>`.
+- `git push <branch-name>` Push changes from current local branch to origin branch.
 - `git checkout -b <branch-name>` Create new local branch.
 - `git branch -d <branch-name>` Delete local branch.
 - `git push -u origin <branch-name>` Push local branch to remote repository. ("Creates" remote branch.)
