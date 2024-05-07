@@ -11,7 +11,7 @@ except ValueError:
     print("Invalid input")
 
 else:  # (optional)
-    # This code will execute if there are no exceptions.
+    print("This code will execute if there are no exceptions.")
 
-finally: # (optional)
-    # Code in the block will execute regardless if exceptions occur or not.
+finally:  # (optional)
+    print("Code in the block will execute regardless if exceptions occur or not.")
